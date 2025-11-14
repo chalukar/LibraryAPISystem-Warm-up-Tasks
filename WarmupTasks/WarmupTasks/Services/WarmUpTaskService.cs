@@ -7,7 +7,7 @@ namespace WarmupTasks.Services
         // 1. Check if a Book ID is a power of 2
         public bool IsPowerOfTwo(int id)
         {
-            
+
             if (id <= 0) return false;
             return (id & (id - 1)) == 0;
         }
